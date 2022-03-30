@@ -1,5 +1,9 @@
 package com.detroitlabs.Aviatolocity.model;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Hotel {
     private String name;
     private int starRating;
