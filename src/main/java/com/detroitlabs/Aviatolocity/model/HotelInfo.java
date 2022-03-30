@@ -6,26 +6,36 @@ import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class HotelInfo {
-    private int destinationID;
+    private String term;
+
+    private List<Suggestions> suggestions;
     private List<Hotel> allHotels;
 
+    public List<Suggestions> getSuggestions() {
+        return suggestions;
+    }
 
-    public HotelInfo(int destinationID, List<Hotel> allHotels) {
-        this.destinationID = destinationID;
+    public void setSuggestions(List<Suggestions> suggestions) {
+        this.suggestions = suggestions;
+    }
+
+    public HotelInfo(List<Hotel> allHotels) {
         this.allHotels = allHotels;
     }
+
 
     public HotelInfo() {
 
     }
 
-    public int getDestinationID() {
-        return destinationID;
+    public String getTerm() {
+        return term;
     }
 
-    public void setDestinationID(int destinationID) {
-        this.destinationID = destinationID;
+    public void setTerm(String term) {
+        this.term = term;
     }
+
 
     public List<Hotel> getAllHotels() {
         return allHotels;
