@@ -14,10 +14,11 @@ public class HotelController {
     }
 
 
-     //image, name, price, address(streetAddress, locality, postalCode, region)
+
 
     @RequestMapping("/hotel")
-    public String displayHotelDetails() {
+    public String displayHotelDetails() {                    //image, name, price, address(streetAddress, locality, postalCode, region)
+
         return "hotel-details";
     }
 

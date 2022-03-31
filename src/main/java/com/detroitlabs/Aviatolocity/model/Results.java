@@ -10,8 +10,38 @@ public class Results {
     private Address address;
     private Price price;
     private String srpDesktop;
+    private Coordinate coordinate;
+
+    @JsonProperty("ratePlan")
+    public Price getPrice() {
+        return price;
+    }
+
+    @JsonProperty("ratePlan")
+    public void setPrice(Price price) {
+        this.price = price;
+    }
+
+    @JsonProperty("optimizedThumbUrls")
+    public String getSrpDesktop() {
+        return srpDesktop;
+    }
+
+    @JsonProperty("optimizedThumbUrls")
+    public void setSrpDesktop(String srpDesktop) {
+        this.srpDesktop = srpDesktop;
+    }
+
+    @JsonProperty("coordinate")
+    public Coordinate getCoordinate() {
+        return coordinate;
+    }
 
 
+    @JsonProperty("coordinate")
+    public void setCoordinate(Coordinate coordinate) {
+        this.coordinate = coordinate;
+    }
 //    @JsonProperty("optimizedThumbUrls")
 //    public String getSrpDesktop() {
 //        return srpDesktop;

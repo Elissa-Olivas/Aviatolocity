@@ -9,7 +9,6 @@ public class HotelInfo {
     private String term;
 
     private List<Suggestions> suggestions;
-    private List<Hotel> allHotels;
 
     public List<Suggestions> getSuggestions() {
         return suggestions;
@@ -19,14 +18,6 @@ public class HotelInfo {
         this.suggestions = suggestions;
     }
 
-    public HotelInfo(List<Hotel> allHotels) {
-        this.allHotels = allHotels;
-    }
-
-
-    public HotelInfo() {
-
-    }
 
     public String getTerm() {
         return term;
@@ -36,12 +27,4 @@ public class HotelInfo {
         this.term = term;
     }
 
-
-    public List<Hotel> getAllHotels() {
-        return allHotels;
-    }
-
-    public void setAllHotels(List<Hotel> allHotels) {
-        this.allHotels = allHotels;
-    }
 }

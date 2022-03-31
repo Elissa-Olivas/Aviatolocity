@@ -1,0 +1,8 @@
+™11:03:46.406 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/locations/v2/search?query=Detroit
+Ž11:03:46.412 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+_11:03:47.417 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+ƒ11:03:47.418 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+ö11:03:47.473 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/properties/list?destinationId=1538574&pageNumber=1&pageSize=5&checkIn=2022-05-08&checkOut=2022-05-10&adults1=1&sortOrder=PRICE
+Ž11:03:47.473 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+_11:03:51.928 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+ƒ11:03:51.928 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"

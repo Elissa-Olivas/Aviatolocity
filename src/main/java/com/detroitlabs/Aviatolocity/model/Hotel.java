@@ -6,18 +6,21 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Hotel {
     private String name;
-    private int starRating;
+    private String starRating;
     private String streetAddress;
     private String locality;                  //City
     private String region;                    //State
-    private int postalCode;                   //zipcode
+    private String postalCode;                   //zipcode
     private double lat;
     private double lon;
-    private int current;                      //price of hotel
-    private String srpDesktop;                //picture of hotel
+    private String price;                      //price of hotel
+    private String hotelImage;                //picture of hotel
 
 
-    public Hotel(String name, int starRating, String streetAddress, String locality, String region, int postalCode, double lat, double lon, int current, String srpDesktop) {
+
+
+
+    public Hotel(String name, String starRating, String streetAddress, String locality, String region, String postalCode, double lat, double lon, String price, String hotelImage) {
         this.name = name;
         this.starRating = starRating;
         this.streetAddress = streetAddress;
@@ -26,8 +29,8 @@ public class Hotel {
         this.postalCode = postalCode;
         this.lat = lat;
         this.lon = lon;
-        this.current = current;
-        this.srpDesktop = srpDesktop;
+        this.price = price;
+        this.hotelImage = hotelImage;
     }
 
     //setters and getters
@@ -39,11 +42,11 @@ public class Hotel {
         this.name = name;
     }
 
-    public int getStarRating() {
+    public String getStarRating() {
         return starRating;
     }
 
-    public void setStarRating(int starRating) {
+    public void setStarRating(String starRating) {
         this.starRating = starRating;
     }
 
@@ -71,11 +74,11 @@ public class Hotel {
         this.region = region;
     }
 
-    public int getPostalCode() {
+    public String getPostalCode() {
         return postalCode;
     }
 
-    public void setPostalCode(int postalCode) {
+    public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
 
@@ -95,19 +98,19 @@ public class Hotel {
         this.lon = lon;
     }
 
-    public int getCurrent() {
-        return current;
+    public String getPrice() {
+        return price;
     }
 
-    public void setCurrent(int current) {
-        this.current = current;
+    public void setPrice(String current) {
+        this.price = price;
     }
 
-    public String getSrpDesktop() {
-        return srpDesktop;
+    public String getHotelImage() {
+        return hotelImage;
     }
 
-    public void setSrpDesktop(String srpDesktop) {
-        this.srpDesktop = srpDesktop;
+    public void setHotelImage(String hotelImage) {
+        this.hotelImage = hotelImage;
     }
 }

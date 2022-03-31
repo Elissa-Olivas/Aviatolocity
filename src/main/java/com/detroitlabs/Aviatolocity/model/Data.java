@@ -3,7 +3,7 @@ package com.detroitlabs.Aviatolocity.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Data {
+public class Data {            //Data has all info
     private Body body;
 
     public Body getBody() {
