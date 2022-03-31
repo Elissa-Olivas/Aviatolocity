@@ -1,11 +1,11 @@
-™14:34:10.210 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/locations/v2/search?query=Detroit
-Ž14:34:10.219 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
-_14:34:11.740 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
-ƒ14:34:11.741 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
-÷14:34:11.844 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/properties/list?destinationId=1538574&pageNumber=1&pageSize=10&checkIn=2022-05-08&checkOut=2022-05-10&adults1=1&sortOrder=PRICE
-Ž14:34:11.845 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
-_14:34:16.452 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
-ƒ14:34:16.453 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+™13:17:06.833 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/locations/v2/search?query=Detroit
+Ž13:17:06.840 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+_13:17:07.986 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+ƒ13:17:07.987 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+÷13:17:08.045 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/properties/list?destinationId=1538574&pageNumber=1&pageSize=10&checkIn=2022-05-08&checkOut=2022-05-10&adults1=1&sortOrder=PRICE
+Ž13:17:08.045 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+_13:17:12.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+ƒ13:17:12.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
 Hamtramck Hostel
 Traveller's Choice Motel
 iCheckINN Motel
