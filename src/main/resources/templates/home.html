@@ -237,21 +237,21 @@
                         <div class="form-header">
                             <h1>Make your reservation</h1>
                         </div>
-                        <form>
+                        <form th:action="@{/home}" method="post">
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Country, ZIP, city...">
+                                <input name="location" class="form-control" type="text" placeholder="Country, ZIP, city...">
                                 <span class="form-label">Destination</span>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" type="date" required>
+                                        <input name="checkin" class="form-control" type="date" required>
                                         <span class="form-label">Check In</span>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input class="form-control" type="date" required>
+                                        <input name="checkout" class="form-control" type="date" required>
                                         <span class="form-label">Check out</span>
                                     </div>
                                 </div>
@@ -273,7 +273,7 @@
                                 -->
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <select class="form-control" required>
+                                        <select name="adults" class="form-control" required>
                                             <option value="" selected hidden>no of adults</option>
                                             <option>1</option>
                                             <option>2</option>

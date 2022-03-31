@@ -1,9 +1,10 @@
-package com.detroitlabs.Aviatolocity.service;
+package com.detroitlabs.Aviatolocity.data;
 
 import com.detroitlabs.Aviatolocity.model.Body;
 import com.detroitlabs.Aviatolocity.model.Data;
 import com.detroitlabs.Aviatolocity.model.HotelInfo;
 import com.detroitlabs.Aviatolocity.model.HotelResponse;
+import com.detroitlabs.Aviatolocity.service.HotelService;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

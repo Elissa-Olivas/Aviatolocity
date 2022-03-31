@@ -8,29 +8,35 @@ public class Results {
     private String name;
     private String starRating;
     private Address address;
-    private Price price;
-    private String srpDesktop;
+    private Rateplan rateplan;
+    private OptimizedThumbUrl optimizedThumbUrl;
     private Coordinate coordinate;
 
-    @JsonProperty("ratePlan")
-    public Price getPrice() {
-        return price;
+    public OptimizedThumbUrl getOptimizedThumbUrl() {
+        return optimizedThumbUrl;
     }
 
-    @JsonProperty("ratePlan")
-    public void setPrice(Price price) {
-        this.price = price;
+    public void setOptimizedThumbUrl(OptimizedThumbUrl optimizedThumbUrl) {
+        this.optimizedThumbUrl = optimizedThumbUrl;
     }
 
-    @JsonProperty("optimizedThumbUrls")
-    public String getSrpDesktop() {
-        return srpDesktop;
+    public Rateplan getRateplan() {
+        return rateplan;
     }
 
-    @JsonProperty("optimizedThumbUrls")
-    public void setSrpDesktop(String srpDesktop) {
-        this.srpDesktop = srpDesktop;
+    public void setRateplan(Rateplan rateplan) {
+        this.rateplan = rateplan;
     }
+
+//    @JsonProperty("optimizedThumbUrls")
+//    public String getSrpDesktop() {
+//        return srpDesktop;
+//    }
+//
+//    @JsonProperty("optimizedThumbUrls")
+//    public void setSrpDesktop(String srpDesktop) {
+//        this.srpDesktop = srpDesktop;
+//    }
 
     @JsonProperty("coordinate")
     public Coordinate getCoordinate() {
@@ -42,24 +48,6 @@ public class Results {
     public void setCoordinate(Coordinate coordinate) {
         this.coordinate = coordinate;
     }
-//    @JsonProperty("optimizedThumbUrls")
-//    public String getSrpDesktop() {
-//        return srpDesktop;
-//    }
-//    @JsonProperty("optimizedThumbUrls")
-//    public void setSrpDesktop(String srpDesktop) {
-//        this.srpDesktop = srpDesktop;
-//    }
-//
-//    @JsonProperty("rateplane")
-//    public Price getPrice() {
-//        return price;
-//    }
-//
-//    @JsonProperty("rateplane")
-//    public void setPrice(Price price) {
-//        this.price = price;
-//    }
 
     public String getName() {
         return name;

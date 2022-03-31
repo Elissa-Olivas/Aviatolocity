@@ -37,7 +37,7 @@ public class HotelService {
 
 
         ResponseEntity responseEntity = restTemplate.exchange("https://hotels4.p.rapidapi.com/properties/list?destinationId="
-                        + destinationID + "&pageNumber=1&pageSize=5&checkIn="
+                        + destinationID + "&pageNumber=1&pageSize=10&checkIn="
                         + checkIn + "&checkOut="
                         + checkout + "&adults1=1&sortOrder=PRICE",
                 HttpMethod.GET, httpEntity, String.class);

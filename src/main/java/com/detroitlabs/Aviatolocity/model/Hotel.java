@@ -17,7 +17,16 @@ public class Hotel {
     private String hotelImage;                //picture of hotel
 
 
-
+    public Hotel(String name, String starRating, String streetAddress, String locality, String region, String postalCode, double lat, double lon) {
+        this.name = name;
+        this.starRating = starRating;
+        this.streetAddress = streetAddress;
+        this.locality = locality;
+        this.region = region;
+        this.postalCode = postalCode;
+        this.lat = lat;
+        this.lon = lon;
+    }
 
 
     public Hotel(String name, String starRating, String streetAddress, String locality, String region, String postalCode, double lat, double lon, String price, String hotelImage) {
@@ -112,5 +121,9 @@ public class Hotel {
 
     public void setHotelImage(String hotelImage) {
         this.hotelImage = hotelImage;
+    }
+
+    public String getFullAddress() {
+        return streetAddress + ", " + locality + ", " + region + " " + postalCode;
     }
 }
