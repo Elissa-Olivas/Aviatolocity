@@ -16,9 +16,9 @@ public class HotelController {
 
      //image, name, price, address(streetAddress, locality, postalCode, region)
 
-    @RequestMapping("/about")
-    public String displayAbout() {
-        return "about";
+    @RequestMapping("/hotel")
+    public String displayHotelDetails() {
+        return "hotel-details";
     }
 
     @RequestMapping("/contact")
