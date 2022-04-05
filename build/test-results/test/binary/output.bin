@@ -1,17 +1,17 @@
-™13:17:06.833 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/locations/v2/search?query=Detroit
-Ž13:17:06.840 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
-_13:17:07.986 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
-ƒ13:17:07.987 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
-÷13:17:08.045 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/properties/list?destinationId=1538574&pageNumber=1&pageSize=10&checkIn=2022-05-08&checkOut=2022-05-10&adults1=1&sortOrder=PRICE
-Ž13:17:08.045 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
-_13:17:12.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
-ƒ13:17:12.013 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+™07:06:42.850 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/locations/v2/search?query=Detroit
+Ž07:06:42.857 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+_07:06:43.994 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+ƒ07:06:43.994 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
+÷07:06:44.056 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET https://hotels4.p.rapidapi.com/properties/list?destinationId=1538574&pageNumber=1&pageSize=10&checkIn=2022-05-08&checkOut=2022-05-10&adults1=1&sortOrder=PRICE
+Ž07:06:44.056 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+_07:06:48.203 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+ƒ07:06:48.204 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "application/json"
 Hamtramck Hostel
 Traveller's Choice Motel
-iCheckINN Motel
 +Quality Inn & Suites Detroit Metro Airport
-Ivy Rose Motor Inn
 "Motel 6 Warren, MI - Detroit East
 A Victory Hotel - Southfield
 Rodeway Inn Auburn Hills
 Kenora Motel
+=Surrounded by beautiful Downtown Detroit, Corktown & Midtown
+$Days Inn & Suites by Wyndham Warren
